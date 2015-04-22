@@ -1,0 +1,62 @@
+<!-- via jordancollier -->
+<!DOCTYPE html>
+  <html>
+   <head>
+     <title>jQuery updown</title>
+     <script src= "bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+     <script src= "bower_components/handlebars/handlebars.js" type="text/javascript"></script>
+     <script src= "main.js" type="text/javascript"></script>
+
+   </head>
+   <body>
+
+     <script id="first-template" type="text/x-handlebars-template">
+       <div class="entry">
+         <h1>{{title}}</h1>
+         <div class="body">
+           {{body}}
+         </div>
+       </div>
+     </script>
+
+     <div class="content">
+     </div>
+
+   </body>
+  </html>
+
+<!-- via cwstewart -->
+<!-- <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Fun with handlebars</title>
+
+      <script charset="utf-8" type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+      <script charset="utf-8" type="text/javascript" src="bower_components/handlebars/handlebars.js"></script>
+      <script charset="utf-8" type="text/javascript" src="main.js"></script>
+    </head>
+
+    <body>
+      <div class="content">
+        <div class="subreddit">
+          <script id="reddit-template" type="text/x-handlebars-template">
+            {{#each this }}
+            <span class="up-vote">
+              <strong><em>Upvotes:</em></strong> {{ data.ups}}
+            </span>
+
+            <span class="down-vote">
+            <strong><em> Downvotes:</em></strong>  {{ data.downs }}
+            </span>
+            <span class="title">
+              <strong><em>Title:</em></strong> {{ data.title }}
+            </span>
+            <p class="username">
+              <strong><em>Username: </em></strong>{{ data.author }}
+            </p>
+            {{/each}}
+          </script>
+        </div>
+      </div>
+    </body>
+  </html> -->
